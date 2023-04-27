@@ -1,0 +1,558 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "S3B_SY_2_V10_20230401T000000_20230410T235959_AFRICA___________",
+  "properties": {
+    "sat:platform_international_designator": "2018-039A",
+    "sat:orbit_state": "descending",
+    "sat:absolute_orbit": 25682,
+    "sat:relative_orbit": 2,
+    "eo:cloud_cover": 1.127407,
+    "start_datetime": "2023-04-01 00:00:00+00:00",
+    "end_datetime": "2023-04-10 23:59:59+00:00",
+    "instruments": [
+      "SYNERGY"
+    ],
+    "s3:mode": "EO",
+    "s3:productType": "SY_2_V10___",
+    "s3:gsd": {
+      "OLCI": 300,
+      "SLSTR": {
+        "S1-S6": 500,
+        "S7-S9 and F1-F2": 1000
+      }
+    },
+    "s3:snowOrIcePixels_percentage": 0.052624,
+    "s3:landPixels_percentage": 48.66971,
+    "providers": [
+      {
+        "name": "ESA",
+        "roles": [
+          "producer",
+          "processor",
+          "licensor"
+        ],
+        "url": "https://earth.esa.int/web/guest/home"
+      },
+      {
+        "name": "Microsoft",
+        "roles": [
+          "host",
+          "processor"
+        ],
+        "url": "https://planetarycomputer.microsoft.com"
+      }
+    ],
+    "platform": "Sentinel-3B",
+    "constellation": "Sentinel-3",
+    "datetime": "2023-04-05T23:59:59.500000Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -25.9911,
+          -35.0
+        ],
+        [
+          -25.9911,
+          37.9911
+        ],
+        [
+          60.0,
+          37.9911
+        ],
+        [
+          60.0,
+          -35.0
+        ],
+        [
+          -25.9911,
+          -35.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "license",
+      "href": "https://sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice"
+    }
+  ],
+  "assets": {
+    "safe-manifest": {
+      "href": "https://sentinel3euwest.blob.core.windows.net/sentinel-3/SYNERGY/SY_2_V10___/2023/04/01/S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/xfdumanifest.xml",
+      "type": "application/xml",
+      "file:checksum": "e69ec7d7a8019f774775e277d61f7575",
+      "file:local_path": "S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/xfdumanifest.xml",
+      "file:size": 6787215,
+      "roles": [
+        "metadata"
+      ]
+    },
+    "b0": {
+      "href": "https://sentinel3euwest.blob.core.windows.net/sentinel-3/SYNERGY/SY_2_V10___/2023/04/01/S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/B0.nc",
+      "type": "application/x-netcdf",
+      "description": "Surface Reflectance Data Set associated with VGT-B0 channel",
+      "v10:shape": [
+        {
+          "crs": 1
+        },
+        {
+          "latitude": 8176
+        },
+        {
+          "longitude": 9632
+        },
+        {
+          "vertices": 2
+        }
+      ],
+      "resolution": [
+        1000,
+        1000
+      ],
+      "eo:bands": [
+        {
+          "name": "B0",
+          "description": "OLCI channels Oa02, Oa03",
+          "center_wavelength": 450,
+          "band_width": 20
+        }
+      ],
+      "file:checksum": "fd7487124fc8a9af06f63031b6e5a99b",
+      "file:local_path": "S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/B0.nc",
+      "file:size": 48088008,
+      "roles": [
+        "data"
+      ]
+    },
+    "b2": {
+      "href": "https://sentinel3euwest.blob.core.windows.net/sentinel-3/SYNERGY/SY_2_V10___/2023/04/01/S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/B2.nc",
+      "type": "application/x-netcdf",
+      "description": "Surface Reflectance Data Set associated with VGT-B2 channel",
+      "v10:shape": [
+        {
+          "crs": 1
+        },
+        {
+          "latitude": 8176
+        },
+        {
+          "longitude": 9632
+        },
+        {
+          "vertices": 2
+        }
+      ],
+      "resolution": [
+        1000,
+        1000
+      ],
+      "eo:bands": [
+        {
+          "name": "B2",
+          "description": "OLCI channels Oa06, Oa07, Oa08, Oa09, Oa10",
+          "center_wavelength": 645,
+          "band_width": 35
+        }
+      ],
+      "file:checksum": "6b4a1ca81734c844141d2a1bff2296c1",
+      "file:local_path": "S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/B2.nc",
+      "file:size": 51807414,
+      "roles": [
+        "data"
+      ]
+    },
+    "b3": {
+      "href": "https://sentinel3euwest.blob.core.windows.net/sentinel-3/SYNERGY/SY_2_V10___/2023/04/01/S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/B3.nc",
+      "type": "application/x-netcdf",
+      "description": "Surface Reflectance Data Set associated with VGT-B3 channel",
+      "v10:shape": [
+        {
+          "crs": 1
+        },
+        {
+          "latitude": 8176
+        },
+        {
+          "longitude": 9632
+        },
+        {
+          "vertices": 2
+        }
+      ],
+      "resolution": [
+        1000,
+        1000
+      ],
+      "eo:bands": [
+        {
+          "name": "B3",
+          "description": "OLCI channels Oa16, Oa17, Oa18, Oa21",
+          "center_wavelength": 835,
+          "band_width": 55
+        }
+      ],
+      "file:checksum": "e8b3e081e13f85808d3fba3869a5acc3",
+      "file:local_path": "S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/B3.nc",
+      "file:size": 53767555,
+      "roles": [
+        "data"
+      ]
+    },
+    "mir": {
+      "href": "https://sentinel3euwest.blob.core.windows.net/sentinel-3/SYNERGY/SY_2_V10___/2023/04/01/S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/MIR.nc",
+      "type": "application/x-netcdf",
+      "description": "Surface Reflectance Data Set associated with VGT-MIR channel",
+      "v10:shape": [
+        {
+          "crs": 1
+        },
+        {
+          "latitude": 8176
+        },
+        {
+          "longitude": 9632
+        },
+        {
+          "vertices": 2
+        }
+      ],
+      "resolution": [
+        1000,
+        1000
+      ],
+      "eo:bands": [
+        {
+          "name": "MIR",
+          "description": "SLSTR nadir and oblique channels S5, S6",
+          "center_wavelength": 1665,
+          "band_width": 85
+        }
+      ],
+      "file:checksum": "229fdcc75cf4f7a3e6d5b8d7ed66fb3e",
+      "file:local_path": "S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/MIR.nc",
+      "file:size": 52126977,
+      "roles": [
+        "data"
+      ]
+    },
+    "ndvi": {
+      "href": "https://sentinel3euwest.blob.core.windows.net/sentinel-3/SYNERGY/SY_2_V10___/2023/04/01/S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/NDVI.nc",
+      "type": "application/x-netcdf",
+      "description": "Normalised difference vegetation index",
+      "v10:shape": [
+        {
+          "crs": 1
+        },
+        {
+          "latitude": 8176
+        },
+        {
+          "longitude": 9632
+        },
+        {
+          "vertices": 2
+        }
+      ],
+      "resolution": [
+        1000,
+        1000
+      ],
+      "eo:bands": [
+        {
+          "name": "B2",
+          "description": "OLCI channels Oa06, Oa07, Oa08, Oa09, Oa10",
+          "center_wavelength": 645,
+          "band_width": 35
+        },
+        {
+          "name": "B3",
+          "description": "OLCI channels Oa16, Oa17, Oa18, Oa21",
+          "center_wavelength": 835,
+          "band_width": 55
+        }
+      ],
+      "file:checksum": "43440df6201393efdb0193aac379e755",
+      "file:local_path": "S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/NDVI.nc",
+      "file:size": 25302330,
+      "roles": [
+        "data"
+      ]
+    },
+    "vaa": {
+      "href": "https://sentinel3euwest.blob.core.windows.net/sentinel-3/SYNERGY/SY_2_V10___/2023/04/01/S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/vaa.nc",
+      "type": "application/x-netcdf",
+      "description": "View azimuth angle data",
+      "v10:shape": [
+        {
+          "crs": 1
+        },
+        {
+          "latitude": 8176
+        },
+        {
+          "longitude": 9632
+        },
+        {
+          "vertices": 2
+        }
+      ],
+      "resolution": [
+        1000,
+        1000
+      ],
+      "file:checksum": "f4d9c942233900a9bed814c00ed4903f",
+      "file:local_path": "S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/vaa.nc",
+      "file:size": 7912912,
+      "roles": [
+        "data"
+      ]
+    },
+    "vza": {
+      "href": "https://sentinel3euwest.blob.core.windows.net/sentinel-3/SYNERGY/SY_2_V10___/2023/04/01/S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/vza.nc",
+      "type": "application/x-netcdf",
+      "description": "View zenith angle data",
+      "v10:shape": [
+        {
+          "crs": 1
+        },
+        {
+          "latitude": 8176
+        },
+        {
+          "longitude": 9632
+        },
+        {
+          "vertices": 2
+        }
+      ],
+      "resolution": [
+        1000,
+        1000
+      ],
+      "file:checksum": "40613e911676c21021b445b01f34be7a",
+      "file:local_path": "S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/vza.nc",
+      "file:size": 14503940,
+      "roles": [
+        "data"
+      ]
+    },
+    "saa": {
+      "href": "https://sentinel3euwest.blob.core.windows.net/sentinel-3/SYNERGY/SY_2_V10___/2023/04/01/S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/saa.nc",
+      "type": "application/x-netcdf",
+      "description": "Solar azimuth angle data",
+      "v10:shape": [
+        {
+          "crs": 1
+        },
+        {
+          "latitude": 8176
+        },
+        {
+          "longitude": 9632
+        },
+        {
+          "vertices": 2
+        }
+      ],
+      "resolution": [
+        1000,
+        1000
+      ],
+      "file:checksum": "e0ce876c5fb4abea121db90ce838b77f",
+      "file:local_path": "S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/saa.nc",
+      "file:size": 8533992,
+      "roles": [
+        "data"
+      ]
+    },
+    "sza": {
+      "href": "https://sentinel3euwest.blob.core.windows.net/sentinel-3/SYNERGY/SY_2_V10___/2023/04/01/S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/sza.nc",
+      "type": "application/x-netcdf",
+      "description": "Solar zenith angle data",
+      "v10:shape": [
+        {
+          "crs": 1
+        },
+        {
+          "latitude": 8176
+        },
+        {
+          "longitude": 9632
+        },
+        {
+          "vertices": 2
+        }
+      ],
+      "resolution": [
+        1000,
+        1000
+      ],
+      "file:checksum": "72f9a7b461b3e5ee849571a27bfafa2d",
+      "file:local_path": "S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/sza.nc",
+      "file:size": 9952398,
+      "roles": [
+        "data"
+      ]
+    },
+    "ag": {
+      "href": "https://sentinel3euwest.blob.core.windows.net/sentinel-3/SYNERGY/SY_2_V10___/2023/04/01/S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/ag.nc",
+      "type": "application/x-netcdf",
+      "description": "Aerosol optical thickness data",
+      "v10:shape": [
+        {
+          "crs": 1
+        },
+        {
+          "latitude": 8176
+        },
+        {
+          "longitude": 9632
+        },
+        {
+          "vertices": 2
+        }
+      ],
+      "resolution": [
+        1000,
+        1000
+      ],
+      "file:checksum": "98199d2c4ed93cc9325f002264c9d76f",
+      "file:local_path": "S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/ag.nc",
+      "file:size": 25040299,
+      "roles": [
+        "data"
+      ]
+    },
+    "og": {
+      "href": "https://sentinel3euwest.blob.core.windows.net/sentinel-3/SYNERGY/SY_2_V10___/2023/04/01/S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/og.nc",
+      "type": "application/x-netcdf",
+      "description": "Total Ozone column data",
+      "v10:shape": [
+        {
+          "crs": 1
+        },
+        {
+          "latitude": 8176
+        },
+        {
+          "longitude": 9632
+        },
+        {
+          "vertices": 2
+        }
+      ],
+      "resolution": [
+        1000,
+        1000
+      ],
+      "file:checksum": "283ef8860d5594147913a33aa3414da0",
+      "file:local_path": "S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/og.nc",
+      "file:size": 954582,
+      "roles": [
+        "data"
+      ]
+    },
+    "wvg": {
+      "href": "https://sentinel3euwest.blob.core.windows.net/sentinel-3/SYNERGY/SY_2_V10___/2023/04/01/S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/wvg.nc",
+      "type": "application/x-netcdf",
+      "description": "Total column Water vapour data",
+      "v10:shape": [
+        {
+          "crs": 1
+        },
+        {
+          "latitude": 8176
+        },
+        {
+          "longitude": 9632
+        },
+        {
+          "vertices": 2
+        }
+      ],
+      "resolution": [
+        1000,
+        1000
+      ],
+      "file:checksum": "58168c223ea3110286ec00703123cbc5",
+      "file:local_path": "S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/wvg.nc",
+      "file:size": 15511911,
+      "roles": [
+        "data"
+      ]
+    },
+    "tg": {
+      "href": "https://sentinel3euwest.blob.core.windows.net/sentinel-3/SYNERGY/SY_2_V10___/2023/04/01/S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/tg.nc",
+      "type": "application/x-netcdf",
+      "description": "Synthesis time data",
+      "v10:shape": [
+        {
+          "crs": 1
+        },
+        {
+          "latitude": 8176
+        },
+        {
+          "longitude": 9632
+        },
+        {
+          "vertices": 2
+        }
+      ],
+      "resolution": [
+        1000,
+        1000
+      ],
+      "file:checksum": "5fd1fdf23f7967a35281cb79cbf31644",
+      "file:local_path": "S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/tg.nc",
+      "file:size": 16373165,
+      "roles": [
+        "data"
+      ]
+    },
+    "sm": {
+      "href": "https://sentinel3euwest.blob.core.windows.net/sentinel-3/SYNERGY/SY_2_V10___/2023/04/01/S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/sm.nc",
+      "type": "application/x-netcdf",
+      "description": "Status Map data",
+      "v10:shape": [
+        {
+          "crs": 1
+        },
+        {
+          "latitude": 8176
+        },
+        {
+          "longitude": 9632
+        },
+        {
+          "vertices": 2
+        }
+      ],
+      "resolution": [
+        1000,
+        1000
+      ],
+      "file:checksum": "846fcbd87a6fbd247f354ecf8bd0c77e",
+      "file:local_path": "S3B_SY_2_V10____20230401T000000_20230410T235959_20230413T152805_AFRICA____________PS2_O_NT_002.SEN3/sm.nc",
+      "file:size": 3468212,
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    -25.9911,
+    -35.0,
+    60.0,
+    37.9911
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.0.0/schema.json"
+  ]
+}
